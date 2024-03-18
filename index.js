@@ -8,7 +8,7 @@ const http = require('http');
 http.createServer((req,resp) =>
 {
 resp.write("<h1>Shahbaz Ali</h1>");
-resp.write("<p>Hello from the first server of Node Js</p>");
+resp.write("<p>Hello from my first server of Node Js</p>");
 resp.write("<p>Created By: Shahbaz Ali</p>");
 resp.end();
 }).listen(4500);

@@ -22,6 +22,7 @@
   },
   "homepage": "https://github.com/shahbaz-bandits25/Node-JS-Course#readme",
   "dependencies": {
-    "colours": "^0.6.0-2"
+    "colours": "^0.6.0-2",
+    "nodemon": "^3.1.0"
   }
 }
