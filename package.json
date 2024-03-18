@@ -1,0 +1,27 @@
+{
+  "name": "node_js_practice_course",
+  "version": "1.0.0",
+  "description": "Learning node js and in this project creating the practice node js backend",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shahbaz-bandits25/Node-JS-Course.git"
+  },
+  "keywords": [
+    "Shahbaz",
+    "node",
+    "course"
+  ],
+  "author": "Shahbaz Ali",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/shahbaz-bandits25/Node-JS-Course/issues"
+  },
+  "homepage": "https://github.com/shahbaz-bandits25/Node-JS-Course#readme",
+  "dependencies": {
+    "colours": "^0.6.0-2"
+  }
+}
