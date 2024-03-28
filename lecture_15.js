@@ -20,7 +20,7 @@
 
 
 
-//Video number 15 here or lecture number 16 here
+//lecture number 16 here
 //in above code we've a problem that Task-2 is delaying
 //To resolve these asynchronous issues we use promise 
 //below is the implementation 
