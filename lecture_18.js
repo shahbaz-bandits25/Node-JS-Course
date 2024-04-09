@@ -15,6 +15,7 @@ const app = express();
 //the 2nd param is the callback function which has two params request and response in it we write what we want
 
 app.get('',(req,resp)=>{
+    //Lecture 19 mein bas yeh request params get krna seekha ha
     //This is how we can get the request which wev sent to server
     let name = req.query.user_name
     //the send method is use to send the response which we've created
