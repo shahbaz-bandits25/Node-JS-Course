@@ -23,6 +23,7 @@
   "homepage": "https://github.com/shahbaz-bandits25/Node-JS-Course#readme",
   "dependencies": {
     "colours": "^0.6.0-2",
+    "ejs": "^3.1.10",
     "express": "^4.19.2",
     "nodemon": "^3.1.0"
   }
