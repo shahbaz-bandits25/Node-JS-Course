@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <title>PROFILE</title>
+</head>
+<body>
+    <%- include('Commons/header'); %>
+
+    <h1>USER PROFIE</h1>
+    <h3>Name: <%= user.name%></h3>
+    <h3>City: <%= user.city%></h3>
+    <h3>Email: <%= user.email%></h3>
+
+    <ul>
+        <% user.skills.forEach((e)=>{ %>
+                <li>
+                    <%= e %>
+                </li>
+        <%})%>
+    </ul>
+    
+</body>
+</html>

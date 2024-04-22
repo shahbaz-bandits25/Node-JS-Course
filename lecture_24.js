@@ -1,4 +1,5 @@
-//In this lecture we'll configure a dynamic route or dynamic page by using ejs engine
+//In this lecture we'll learn how run a loop in ejs 
+//means if we've an array in our dynamic data then how we can loop on it in our ejs file
 
 const express = require('express');
 const path = require('path');
@@ -16,10 +17,17 @@ app.get('/profile',(req,resp)=>{
     let user ={
         name:'Shahbaz Ali',
         city: 'Karachi',
-        email:'shahbaz@cinqtech.com'
+        email:'shahbaz@cinqtech.com',
+        skills:['Python','JavaScript','TypeScript','Solidity']
     }
     //we'll send user object to our profile page like below
-    resp.render('profile',{user});
+    resp.render('user_profile',{user});
 });
+
+//to go on login page means this is a login route
+app.get('/login',(req,resp)=>{
+    resp.render('login')
+});
+
 
 app.listen(4500);
